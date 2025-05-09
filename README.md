@@ -1,7 +1,9 @@
 # PlexTrailers
 Python Script for getting movie/tv trailers for Plex Server Owners
 
+Donations are most welcome for future updates at the link below.
 
+https://www.paypal.com/ncp/payment/FFLG36H78KMHJ
 
 This script is designed to automate the process of downloading YouTube videos from a webpage that contains a list of trailer links, including both direct and embedded YouTube links. Here's a breakdown of the key steps it performs:
 
