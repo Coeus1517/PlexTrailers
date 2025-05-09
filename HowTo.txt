@@ -1,0 +1,33 @@
+How To!
+
+Download and install Python V3 minimum.
+
+https://www.python.org/downloads/
+
+Download the .py files in this git.
+Edit the py file with Notepad to make sure your Directory is set properly. The default is C:\Videos which if it does not exist it will create.
+
+From there you'll need to open the python console and cd to the directory you have stored your DownloadXTrailers.py file to. 
+I suggest storing files in C:\Tools\ as I have stored yt-dlp and chromedriver.exe there.
+
+
+
+From here you will run py DownloadNewTrailer.py or py DownloadReleaseTrailer.py
+
+The script will then check to see if you have the correct modules installed for use(Listed below).
+
+Selenium(Web Scraper)
+FFmpeg(Video/Audio Processing)
+yt-dlp(Command Line youtube downloader)
+requests(HTTP request module)
+ChromeDriver(Backend Chrome Browser)
+beautifulsoup4(HTML Parser)
+
+These are all required for the individual functions of the script. Error logging should notify you if one fails to install.
+
+It will then scrape the associated site. In this case I have designated https://www.themoviebox.net/s/trailer-round-up. 
+
+Depending on the script you run it will either look for the most recent Trailer Round Up or Whats Coming Out This Week.
+
+Once it finds it it will scrape that page, find all the embeded youtube links, and then download them. The default preset configuration is 1080p.
+This can be configured by editting the yt-dlp section of the script towards the end. 
