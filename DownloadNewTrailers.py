@@ -119,7 +119,7 @@ try:
     try:
         wait = WebDriverWait(driver, 10)
         element = wait.until(
-            EC.presence_of_element_located((By.XPATH, "//a[contains(@href, 'trailer-round-up')]"))
+            EC.presence_of_element_located((By.XPATH, "//a[contains(@href, '/p/trailer-round-up')]"))
         )
         matching_link = element.get_attribute("href")
         print(f"✅ Found matching link: {matching_link}")
